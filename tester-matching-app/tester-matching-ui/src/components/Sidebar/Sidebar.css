@@ -1,0 +1,47 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+}
+
+#sidebar-filters {
+    overflow: visible;
+}
+
+#data-group {
+    position: relative;
+    left: 10%;
+    width: 90%;
+}
+.card {
+    position: relative;
+    margin: 1%;
+}
+
+ul {
+    max-height: 300px;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.btn-success {
+    position: fixed;
+    margin: 1%;
+    bottom: 0;
+    left: 0;
+    width: 18%;
+}
+
+
